@@ -6,6 +6,7 @@ myMap.set((function(){
 myMap.set(2,"two")
 myMap.set(3,"three")
 
+console.log(myMap.get("1"));
 
 console.log(myMap);
 myMap.forEach((value,key)=>(

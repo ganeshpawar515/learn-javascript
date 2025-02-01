@@ -1,13 +1,19 @@
-var [a,b,c]=["1",2,3]
+const number=[1,2,3,4]
+const [_,b,c,d]=number;
 
-const user={
-    name:"Games",
-    courseCount:5,
-    role:"Admin"
-}
+// console.log(typeof number);
+// console.log(typeof a);
 
-var {name,courseCount,role}=user;
+console.log(_);
+console.log(b);
+console.log(c);
+console.log(d);
 
-// console.log(a,c,b);
+const person = {name:"Ganesh", age:24}
+console.log(typeof person);
+console.log(person);
+let {name:fullName,age}=person//renaming name to fullName order doesn't matter only destructured variables availaible use let to see errors
+// let name = person.name;
+console.log(fullName);
 
-console.log(name);
+
